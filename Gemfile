@@ -5,7 +5,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails'
 
-group :development do
+group :production do
   gem 'sqlite3'
   gem "rspec-rails", ">= 2.6"
   gem 'capybara'
