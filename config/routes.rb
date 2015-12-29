@@ -1,6 +1,8 @@
 Bowling::Application.routes.draw do
 
   root to: 'game#index'
-  match '/game(/:action)', to: 'game'
+  get 'game/frame'
+  post 'game/frame'
+
    
 end
